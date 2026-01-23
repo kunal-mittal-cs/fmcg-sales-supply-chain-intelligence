@@ -1,6 +1,6 @@
-# Sales Forecasting System
+# Enterprise Sales Forecasting System
 
-An end-to-end sales forecasting and analytics system using SQL, Python, Machine Learning, Power BI, and Streamlit.
+An end-to-end Enterprise sales forecasting and analytics system using SQL, Python, Machine Learning, Power BI, and Streamlit.
 
 ## 🔹 Project Overview
 This project simulates a real-world business pipeline where raw sales data is stored in a relational database, transformed using SQL, analyzed using Python, modeled using machine learning, visualized through Power BI, and deployed via a web application.
