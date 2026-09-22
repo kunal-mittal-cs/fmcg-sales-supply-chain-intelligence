@@ -1,35 +1,76 @@
-# Enterprise Sales Forecasting System
+# FMCG Sales, Promotion & Supply Chain Intelligence
 
-An end-to-end Enterprise sales forecasting and analytics system using SQL, Python, Machine Learning, Power BI, and Streamlit.
+## Overview
 
-## 🔹 Project Overview
-This project simulates a real-world business pipeline where raw sales data is stored in a relational database, transformed using SQL, analyzed using Python, modeled using machine learning, visualized through Power BI, and deployed via a web application.
+An end-to-end FMCG analytics project built around 1.1M+ sales records.
 
-## 🔹 Tech Stack
-- **Database:** MySQL
-- **Backend:** Python (Pandas, NumPy, Scikit-learn)
-- **Machine Learning:** Regression, Time Series Forecasting
-- **Visualization:** Power BI
-- **Deployment:** Streamlit
-- **Version Control:** Git & GitHub
+The project analyzes sales, products, brands, stores, channels, promotions, pricing, margins, inventory, stock-outs, suppliers and lead times using SQL, Python and Power BI.
 
-## 🔹 System Architecture
-1. Data ingestion into MySQL
-2. ETL using SQL queries
-3. Data analysis & feature engineering in Python
-4. Model training & evaluation
-5. Model deployment using Streamlit
-6. Business dashboard using Power BI
+## Objectives
 
-## 🔹 Key Features
-- Automated ETL pipeline
-- Forecast future sales trends
-- Interactive business dashboard
-- Web-based prediction interface
-- Modular, production-style project structure
+- Analyze sales and revenue performance
+- Compare product and brand performance
+- Analyze channel and store performance
+- Examine promotion and discount patterns
+- Analyze inventory and stock-out activity
+- Analyze supplier lead times and procurement-related metrics
+- Study pricing and margin performance
+- Identify seasonal and time-based sales patterns
+- Build business dashboards and recommendations
 
-## 🔹 Project Status
-🚧 In Progress — actively building and updating
+## Technology Stack
 
-## 🔹 Author
-**Kunal Mittal**
+- SQL
+- MySQL
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Power BI
+- Excel
+
+## Project Workflow
+
+Raw CSV  
+↓  
+Staging Table  
+↓  
+Data Validation  
+↓  
+Fact & Dimension Tables  
+↓  
+SQL Analysis  
+↓  
+Python Analysis  
+↓  
+Power BI Dashboard  
+↓  
+Business Insights  
+↓  
+Recommendations
+
+## Dataset
+
+The project uses a dataset containing approximately 1.1M+ records and 33 attributes covering:
+
+- Products
+- Categories
+- Brands
+- Stores
+- Countries and cities
+- Sales channels
+- Promotions
+- Pricing
+- Inventory
+- Stock-outs
+- Suppliers
+- Lead times
+- Purchase costs
+- Margins
+- Calendar and weather variables
+
+## Project Structure
+
+```text
+database/       SQL database design and analysis
+screenshots/    Project screenshots
